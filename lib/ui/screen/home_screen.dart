@@ -195,32 +195,3 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-// Image(
-//   image: NetworkImage(_photoListModel
-//       .photos![index].src!.medium!),
-//   fit: BoxFit.cover,
-//   width: MediaQuery.of(context).size.width /
-//       2.01,
-//   height: _photoListModel
-//           .photos![index].height! /
-//       22,
-//   loadingBuilder: (BuildContext context,
-//       Widget child,
-//       ImageChunkEvent? loadingProgress) {
-//     if (loadingProgress == null) {
-//       return child;
-//     }
-//     return Center(
-//       child: CircularProgressIndicator(
-//         value: loadingProgress
-//                     .expectedTotalBytes !=
-//                 null
-//             ? loadingProgress
-//                     .cumulativeBytesLoaded /
-//                 loadingProgress
-//                     .expectedTotalBytes!
-//             : null,
-//       ),
-//     );
-//   },
-// ),
